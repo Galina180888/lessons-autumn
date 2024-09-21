@@ -1,0 +1,128 @@
+@import url("reset.css");
+
+/* Тренування відповідно під час уроку  */
+
+/* * {
+    color: blueviolet;
+} */
+
+/* p {
+    color: blueviolet;
+}
+
+h2 {
+    color: blueviolet;
+} */
+
+/* .title {
+    color: blueviolet;
+} */
+
+/* #block-0 {
+    color: blueviolet;
+} */
+
+/* [class*="te"] {
+    color: blueviolet;
+} */
+
+/* div.text {
+    color: blueviolet;
+} */
+
+/* .text,
+.title-text {
+    color: blueviolet;
+} */
+
+/* .block-0 h1 {
+    color: blueviolet;
+} */
+
+/* .list-ol .item {
+    color: blueviolet;
+} */
+
+/* .block-2 * {
+    color: blueviolet;
+} */
+
+/* .block-3>p {
+    color: blueviolet;
+} */
+
+/* .block-3~p {
+    color: blueviolet;
+} */
+
+/* .block-3+p {
+    color: blueviolet;
+} */
+
+/* Виконання домашки */
+
+* {
+    color: black;
+}
+
+/* .menu>li {
+    color: brown;
+} */
+
+[class*="header"] {
+    color: blueviolet;
+}
+
+a.link {
+    color: blue;
+}
+
+.menu-2 a {
+    color: aqua;
+}
+
+div.block-0.text>h1 {
+    color: cadetblue;
+}
+
+#block-1 {
+    color: olivedrab;
+}
+
+.title-text~p {
+    color: darkmagenta;
+}
+
+.list-ul .item {
+    color: indigo;
+}
+
+.item b {
+    color: red;
+}
+
+.block-2 {}
+
+ol .item {
+    color: deeppink;
+}
+
+.item.item-diffirent {
+    color: blue;
+}
+
+h2.title-text {
+    color: lightsalmon;
+}
+
+h2#block-3 {
+    color: crimson;
+}
+
+a.link-2 {
+    color: darkgreen;
+}
+
+.footer>a {
+    color: aqua;
+}
