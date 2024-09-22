@@ -16,6 +16,8 @@
 
 /* стилізація */
 
+/* по два класи, наприклад, artical artical-1 пододавала на майбутнє, для зручнішої стилізації та "уточнень" на майбутнє */
+
 body {
     font-family: "Helvetica Neue", sans-serif;
     font-size: 18px;
