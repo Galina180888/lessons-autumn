@@ -1,0 +1,193 @@
+/* скидання стилів  */
+
+@import url("reset.css");
+
+/* підключення стилів */
+
+@import url("fonts.css");
+
+/* підключення шрифтів */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Montserrat:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,600;1,600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic');
+
+/* Підключення через плагін */
+
+/* @import url(https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800); */
+
+/* стилізація */
+
+/* по два класи, наприклад, artical artical-1 пододавала на майбутнє, для зручнішої стилізації та "уточнень" на майбутнє */
+
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 18px;
+}
+
+p {
+    color: #242424c9;
+}
+
+a {
+    color: rgba(137, 43, 226, 0.485);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: oblique;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: chocolate;
+    text-decoration-style: double;
+    text-shadow: 1px 1px 1px #0000007d;
+}
+
+h1,
+h2,
+h3 {
+    color: rgba(95, 158, 160, 0.489);
+    font-family: "Manrope";
+    font-style: italic;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #0000007d;
+    text-transform: capitalize;
+}
+
+.title-1 {
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.title-2 {
+    font-size: 28px;
+}
+
+.title-3 {
+    font-size: 20px;
+}
+
+.item {
+    font-size: 20px;
+    text-align: right;
+}
+
+.item-1 {
+    font-size: 24px;
+    font-style: oblique;
+}
+
+.item-2,
+.item-3 {
+    font-weight: 200;
+}
+
+h3 {
+    font-weight: 200;
+    text-decoration: line-through;
+}
+
+.artical-2 p {
+    color: rgb(205, 206, 255);
+    text-transform: lowercase;
+    line-height: 1.5;
+    word-spacing: 10px;
+    /* white-space: nowrap; */
+}
+
+.header-menu>li {
+    text-align: left;
+}
+
+.header-menu a {
+    text-decoration: none;
+}
+
+.read-more-block p {
+    color: chocolate;
+    font-size: 24px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: wavy;
+    text-transform: uppercase;
+}
+
+/* Figma */
+
+.title-portfolio {
+    color: #132238;
+    text-align: left;
+    font-family: "Work Sans", sans-serif;
+    font-size: 38px;
+    line-height: 50px;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: none;
+    text-transform: none;
+}
+
+.personal-portfolio p {
+    color: #556070;
+    text-align: left;
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+
+
+.about-us {
+    color: #1e1b39;
+    text-align: left;
+    font-family: "DmSans", sans-serif;
+    font-size: 88px;
+    line-height: 95px;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow: none;
+    text-transform: none;
+}
+
+.text-about p {
+    color: #474464;
+    text-align: left;
+    font-family: "DmSans", sans-serif;
+    font-size: 24px;
+    line-height: 42px;
+    font-weight: 400;
+}
+
+.landing {
+    color: #091133;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-style: normal;
+    text-shadow: none;
+    text-transform: none;
+}
+
+.text-landing p {
+    color: #505f98;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.top {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
