@@ -2,17 +2,21 @@
 
 @import url("reset.css");
 
+/* підключення стилів */
+
+@import url("fonts.css");
+
 /* підключення шрифтів */
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Montserrat:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,600;1,600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic');
 
 /* Підключення через плагін */
 
 /* @import url(https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800); */
-
-/* підключення стилів */
-
-@import url("fonts.css");
 
 /* стилізація */
 
@@ -45,7 +49,7 @@ h3 {
     color: rgba(95, 158, 160, 0.489);
     font-family: "Manrope";
     font-style: italic;
-    font-weight: bold;
+    font-weight: 700;
     text-shadow: 1px 1px 1px #0000007d;
     text-transform: capitalize;
 }
@@ -104,7 +108,7 @@ h3 {
 .read-more-block p {
     color: chocolate;
     font-size: 24px;
-    font-family: "WorkSans-SemiBold", sans-serif;
+    font-family: "Work Sans", sans-serif;
     font-weight: 700;
     font-style: italic;
     line-height: 1.5;
@@ -115,13 +119,10 @@ h3 {
 
 /* Figma */
 
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,600;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap');
-
 .title-portfolio {
     color: #132238;
     text-align: left;
-    font-family: "WorkSans-SemiBold", sans-serif;
+    font-family: "Work Sans", sans-serif;
     font-size: 38px;
     line-height: 50px;
     font-weight: 600;
@@ -133,18 +134,18 @@ h3 {
 .personal-portfolio p {
     color: #556070;
     text-align: left;
-    font-family: "WorkSans-Regular", sans-serif;
+    font-family: "Work Sans", sans-serif;
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
 }
 
-@import url(https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
 
 .about-us {
     color: #1e1b39;
     text-align: left;
-    font-family: "DmSans-Bold", sans-serif;
+    font-family: "DmSans", sans-serif;
     font-size: 88px;
     line-height: 95px;
     font-weight: 700;
@@ -156,20 +157,16 @@ h3 {
 .text-about p {
     color: #474464;
     text-align: left;
-    font-family: "DmSans-Regular", sans-serif;
+    font-family: "DmSans", sans-serif;
     font-size: 24px;
     line-height: 42px;
     font-weight: 400;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
-
-/* розібратись, як встановити розширення для шрифтів на Маку - в процесі...поки не вдалось, тому підтягує усі варіаціх */
-
 .landing {
     color: #091133;
     text-align: left;
-    font-family: "Roboto-Medium", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 50px;
     line-height: 66px;
     letter-spacing: 1px;
@@ -182,7 +179,7 @@ h3 {
 .text-landing p {
     color: #505f98;
     text-align: left;
-    font-family: "Roboto-Regular", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
     line-height: 30px;
     font-weight: 400;
@@ -190,7 +187,7 @@ h3 {
 
 .top {
     font-size: 24px;
-    font-family: "Roboto-Regular", sans-serif;
+    font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     text-align: center;
 }
