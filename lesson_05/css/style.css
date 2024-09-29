@@ -1,0 +1,259 @@
+/* скидання стилів  */
+
+@import url("reset.css");
+
+/* підключення стилів */
+
+@import url("fonts.css");
+
+/* підключення шрифтів */
+
+/* Dark */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+
+/* lending */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/* стилізація */
+
+/* div.block {
+    background-color: blueviolet; */
+/* padding: 20px; */
+/* padding: 20px 50px; */
+/* padding: 20px 50px 100px; */
+/* padding: 100px 20px 70px 30px; */
+/* padding-top: 50px;
+    padding-right: 100px; */
+
+/* level 2 */
+
+/* padding-block: 100px;
+    padding-inline: 50px; */
+
+/* padding-inline-start: 50px;
+    padding-inline-end: 50px;
+    padding-block-start: 100px;
+    padding-block-end: 100px;
+} */
+
+.heading {
+    padding-block-start: 50px;
+    margin-block-end: 50px;
+}
+
+h1.title {
+
+    color: #E50000;
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 66px;
+    letter-spacing: 1px;
+
+}
+
+.container {
+    padding-block-start: 150px;
+    padding-inline: 160px;
+    background-color: #1E1E1E;
+}
+
+.heading {
+    padding-block-end: 14px;
+}
+
+.heading h2 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Manrope", sans-serif;
+    font-size: 38px;
+    line-height: 150%;
+    font-weight: 700;
+}
+
+.text-container {
+    padding-block-end: 80px;
+}
+
+.paragraph p {
+    color: #999999;
+    text-align: left;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+.heading3 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Manrope", sans-serif;
+    font-size: 22px;
+    line-height: 150%;
+    font-weight: 600;
+    display: inline-block;
+    margin-block-start: 18px;
+}
+
+.card {
+    display: inline-block;
+    max-inline-size: 30%;
+    padding: 30px;
+    background-color: #141414;
+    border: 1px solid #1f1f1f;
+    border-radius: 12px;
+    margin-inline: 15px;
+}
+
+.container2 {
+    margin-inline: -15px;
+    margin-block-end: 30px;
+}
+
+.sub-container {
+    padding-block-end: 150px;
+}
+
+.frame {
+    background: #141414;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #1f1f1f;
+    border-width: 1px;
+    padding: 16px;
+    margin-inline-end: 15px;
+    margin-block-end: 30px;
+    width: 70px;
+    height: 70px;
+}
+
+.icon-container {
+    vertical-align: top;
+}
+
+/* lending */
+
+.lending {
+    padding-block-start: 300px;
+    padding-left: 165px;
+    padding-right: 735px;
+}
+
+
+.lending-title {
+    color: #091133;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-block-end: 20px;
+}
+
+.lending>p {
+    color: #505f98;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-block-end: 70px;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    padding-inline: 45px;
+    padding-block: 5px;
+    margin-inline-end: 30px;
+}
+
+.element-button-filled {
+    background-color: #111b47;
+    color: #ffffff;
+    border: #091133 1px solid;
+
+}
+
+.element-button-notfilled {
+    background-color: #fff;
+    color: #091133;
+    border: #091133 1px solid;
+}
+
+/* lending-block-2 */
+
+.lending2 {
+    padding-block: 160px;
+    padding-left: 165px;
+    padding-right: 735px;
+}
+
+.lending-title2 {
+    color: #091133;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 500;
+    margin-block-end: 16px;
+}
+
+.lending2>p {
+    color: #6f7cb2;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-block-end: 70px;
+}
+
+.line {
+    margin-inline: -15px;
+    margin-block: 15px;
+}
+
+.lending-icon-block {
+    display: inline-block;
+    margin-inline: 15px;
+    width: 40%;
+}
+
+.lending-icons-block {
+    margin-block: -15px;
+}
+
+.image {
+    margin-bottom: 15px;
+}
+
+.landing-title {
+    color: #091133;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.lending-icon-block>p {
+    color: #5d6970;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+}
