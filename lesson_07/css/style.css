@@ -630,7 +630,12 @@ h2 span:hover::before {
 }
 
 .design-title-1::after {
-    content: "🔎";
+    content: "";
+    background: url("../img/icon1.png") 0 0 / auto no-repeat;
+    width: 54px;
+    height: 54px;
+    vertical-align: middle;
+    margin-left: 10px;
 }
 
 .design-item {
@@ -643,14 +648,24 @@ h2 span:hover::before {
 }
 
 .design-title-2::after {
-    content: "💻";
+    content: "";
+    background: url("../img/icon2.png") 0 0 / auto no-repeat;
+    width: 54px;
+    height: 54px;
+    vertical-align: middle;
+    margin-left: 10px;
 }
 
 .design-title-3::after {
-    content: "🚀";
+    content: "";
+    background: url("../img/icon3.png") 0 0 / auto no-repeat;
+    width: 54px;
+    height: 54px;
+    vertical-align: middle;
+    margin-left: 10px;
 }
 
-.design-item-1::before {
+/* .design-item-1::before {
     content: "01";
     width: 218px;
     height: 218px;
@@ -693,7 +708,7 @@ h2 span:hover::before {
     font-size: 88px;
     line-height: 95px;
     font-weight: 700;
-}
+} */
 
 /* task-2  */
 
