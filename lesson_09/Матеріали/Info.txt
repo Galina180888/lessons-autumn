@@ -1,0 +1,15 @@
+Html Checker
+https://validator.w3.org/nu/
+
+CSS Validation Service
+https://jigsaw.w3.org/css-validator/
+
+Генератор HTML-дерева
+https://yoksel.github.io/html-tree/
+
+BEMValidator
+https://nglazov.github.io/bem-validator-page/
+
+Заняття 9 Методологія БЕМ
+https://meadow-manicure-24b.notion.site/fc69adb10a3842499e245954d78e7bee?v=30dd2173a8444c6e8e056a57cecd3e26&p=1187e75cc02a8060ad89c88aaf7b3cf5&pm=s 
+

@@ -1,0 +1,173 @@
+/* скидання стилів  */
+
+@import url("reset.css");
+
+/* підключення стилів */
+
+@import url("fonts.css");
+
+/* підключення шрифтів */
+
+/* стилізація */
+
+/* загальні стилі */
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    background-color: #F5F5F3;
+}
+
+[class*="__container"] {
+    max-width: 1470px;
+    margin: 0 auto;
+    padding-inline: 15px;
+    padding-block: 50px;
+}
+
+.page {
+    padding: 30px;
+}
+
+.header {
+    background-color: #EECEC1;
+    padding-block: 50px;
+}
+
+.item {
+    display: inline-block;
+    margin-left: 50px;
+    font-family: "Helvetica Neue";
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #89A8AE;
+}
+
+.list li:nth-child(1) {
+    color: #5F494E;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Helvetica Neue";
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 62px;
+    color: #5F494E;
+}
+
+h2.block-header__label {
+    font-size: 52px;
+    color: #89A8AE;
+    font-size: 42px;
+}
+
+h3.row__title {
+    font-size: 32px;
+    color: #F5F5F3;
+}
+
+.footer {
+    background-color: #89A8AE;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.footer p {
+    font-family: "Helvetica Neue";
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #F5F5F3;
+}
+
+/* практика */
+
+/* .block-header {
+    padding-block: 50px;
+} */
+
+.block-header--margin {
+    margin-bottom: 50px;
+}
+
+.section-block {
+    background-color: #B1827A;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.section-block--margin {
+    margin-bottom: 50px;
+}
+
+.section-block h3,
+p,
+a,
+img:not(:last-of-type) {
+    margin-bottom: 25px;
+}
+
+.row__button {
+    background-color: #F5F5F3;
+    color: #89A8AE;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue";
+    font-weight: 700;
+    padding-inline: 50px;
+    padding-block: 25px;
+    border-radius: 5px;
+}
+
+.row__button:hover {
+    background-color: #EECEC1;
+}
+
+.row p {
+    color: #F5F5F3;
+    font-family: "Helvetica Neue";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.section-block__container-image {
+    margin-bottom: 25px;
+}
+
+.section-block__image {
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.section_gallery {
+    background-color: #89A8AE;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.section_gallery img:not(:last-of-type) {
+    margin-right: 25px;
+}
+
+.section_gallery__image {
+    max-width: 20%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px #F5F5F3;
+}
+
+.section_gallery--margin {
+    margin-bottom: 50px;
+}
+
+/* .container div:not(:last-of-type) {
+    margin-bottom: 50px;
+} */
+
+.section_gallery--broun {
+    background-color: #5F494E;
+}
