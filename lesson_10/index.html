@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Урок 10</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header id="header" class="header">
+            <div class="header__menu menu-general">
+                <ul class="menu-general__list items-menu">
+                    <li class="items-menu__item">
+                        <a href="#practice" class="items-menu__link">Практика</a>
+                    </li>
+                    <li class="items-menu__item">
+                        <a href="#hometask" class="items-menu__link">Домашка</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <main class="page">
+
+            <div class="title__container block-header">
+                <h1 class="block-header__title">Урок 10 - Позиціонування</h1>
+            </div>
+
+            <div class="title__container block-header">
+                <h2 class="block-header__subtitle" id="practice">Практика</h2>
+            </div>
+
+            <div class="practice__container block">
+
+                <h3 class="block__subtitle">Без зміни позиціонування (position: static)</h3>
+
+                <div class="block__items box">
+
+                    <div class="box__item">1</div>
+                    <div class="box__item">2</div>
+                    <div class="box__item">3</div>
+                </div>
+            </div>
+
+            <div class="practice__container block">
+
+                <h3 class="block__subtitle">Зміна позиціонування (position: relative)</h3>
+
+                <div class="block__items box-1">
+
+                    <div class="box-1__item">1</div>
+                    <div class="box-1__item">2</div>
+                    <div class="box-1__item">3</div>
+                </div>
+            </div>
+
+            <div class="practice__container block">
+
+                <h3 class="block__subtitle">Зміна позиціонування з мінусовити значеннями (position: relative)</h3>
+
+                <div class="block__items box-2">
+
+                    <div class="box-2__item">1</div>
+                    <div class="box-2__item">2</div>
+                    <div class="box-2__item">3</div>
+                </div>
+            </div>
+
+            <div class="practice__container block">
+
+                <h3 class="block__subtitle">Зміна позиціонування з % (position: relative)</h3>
+
+                <div class="block__items box-3">
+
+                    <div class="box-3__item">1</div>
+                    <div class="box-3__item">2</div>
+                    <div class="box-3__item">3</div>
+                </div>
+            </div>
+
+            <div class="practice__container block">
+
+                <h3 class="block__subtitle">Z - індекс </h3>
+
+                <div class="block__items box-4">
+
+                    <div class="box-4__item">1</div>
+                    <div class="box-4__item">2</div>
+                    <div class="box-4__item">3</div>
+                </div>
+            </div>
+
+            <div class="practice__container block">
+
+                <h3 class="block__subtitle">Z - індекс і батьківські елементи</h3>
+
+                <div class="block__items box-5">
+
+                    <div class="box-5__item">Блок - 1</div>
+
+                </div>
+
+                <div class="block__items box-6">
+
+                    <div class="box-6__item">Блок - 2</div>
+
+                </div>
+
+            </div>
+
+
+            <div class="practice__container block">
+
+                <h3 class="block__subtitle">Абсолютне позиціонування (position: absolut;) - по замовчуванню, як захотів
+                    браузер</h3>
+
+                <div class="block__items box-7">
+
+                    <div class="box-7__item">1</div>
+                    <div class="box-7__item">2</div>
+                    <div class="box-7__item">3</div>
+                </div>
+            </div>
+
+            <div class="practice__container block">
+
+                <h3 class="block__subtitle">Абсолютне позиціонування - вказуємо координати (position: absolut;)</h3>
+
+                <div class="block__items box-8">
+
+                    <div class="box-8__item">1</div>
+                    <div class="box-8__item">2</div>
+                    <div class="box-8__item">3</div>
+                </div>
+            </div>
+
+            <div class="practice__container block">
+
+                <h3 class="block__subtitle">Абсолютне позиціонування - вказуємо координати (position: absolut;),
+                    батьківський елемент має position: relative;</h3>
+
+                <div class="block__items box-9">
+
+                    <div class="box-9__item">1</div>
+                    <div class="box-9__item">2</div>
+                    <div class="box-9__item">3</div>
+                </div>
+            </div>
+
+
+            <div class="practice__container block">
+
+                <h3 class="block__subtitle">Абсолютне позиціонування - вказуємо координати (%) (position: absolut;),
+                    батьківський елемент має position: relative;</h3>
+
+                <div class="block__items box-10">
+
+                    <div class="box-10__item">1</div>
+                    <div class="box-10__item">2</div>
+                    <div class="box-10__item">3</div>
+                </div>
+            </div>
+
+            <div class="practice__container block">
+
+                <h3 class="block__subtitle">Фіксоване позиціонування (position: fixed;),
+                    батьківський елемент має position: relative;</h3>
+
+                <div class="block__items box-11">
+
+                    <div class="box-11__item">1</div>
+                    <div class="box-11__item">2</div>
+                    <div class="box-11__item">3</div>
+                </div>
+            </div>
+
+            <div class="practice__container block">
+
+                <h3 class="block__subtitle">Стікі позиціонування (position: sticky;)</h3>
+
+                <div class="block__items box-12">
+
+                    <div class="box-12__item box-12__item-first">1</div>
+                    <div class="box__text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eveniet ullam inventore soluta
+                            dolore quos harum aliquid placeat ipsa. Aspernatur similique laborum itaque, distinctio
+                            fugit
+                            reiciendis deserunt ex nulla mollitia?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>å
+                    </div>
+
+                    <div class="box-12__item box-12__item-second">2</div>
+                    <div class="box__text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                    </div>
+
+                    <div class="box-12__item box-12__item-third">3</div>
+                    <div class="box__text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid ea ut rem asperiores
+                            dolore odit vitae incidunt quisquam fugiat qui dicta, numquam perspiciatis natus maiores
+                            dolor, nesciunt neque laborum?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="practice__container block">
+
+                <h3 class="block__subtitle">Header (position: fixed;)</h3>
+
+                <div class="block__items box-14">
+
+                    <div class="box-14__header">Header Example</div>
+                    <div class="box__text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid ea ut rem asperiores
+                            dolore odit vitae incidunt quisquam fugiat qui dicta, numquam perspiciatis natus maiores
+                            dolor, nesciunt neque laborum?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                    </div>
+                    <div class="box__text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid ea ut rem asperiores
+                            dolore odit vitae incidunt quisquam fugiat qui dicta, numquam perspiciatis natus maiores
+                            dolor, nesciunt neque laborum?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                    </div>
+                    <div class="box__text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid ea ut rem asperiores
+                            dolore odit vitae incidunt quisquam fugiat qui dicta, numquam perspiciatis natus maiores
+                            dolor, nesciunt neque laborum?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="practice__container block">
+
+                <h3 class="block__subtitle">Header (position: sticky;)</h3>
+
+                <div class="block__items box-15">
+
+                    <div class="box-15__header">Header Example</div>
+                    <div class="box__text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid ea ut rem asperiores
+                            dolore odit vitae incidunt quisquam fugiat qui dicta, numquam perspiciatis natus maiores
+                            dolor, nesciunt neque laborum?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                    </div>
+                    <div class="box__text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid ea ut rem asperiores
+                            dolore odit vitae incidunt quisquam fugiat qui dicta, numquam perspiciatis natus maiores
+                            dolor, nesciunt neque laborum?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                    </div>
+                    <div class="box__text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid ea ut rem asperiores
+                            dolore odit vitae incidunt quisquam fugiat qui dicta, numquam perspiciatis natus maiores
+                            dolor, nesciunt neque laborum?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="practice__container block">
+
+                <h3 class="block__subtitle">Image + Z-index: -1;</h3>
+
+                <div class="block__items box-16">
+
+                    <div class="box-16__header">Some title</div>
+                    <div class="box-16__text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid ea ut rem asperiores
+                            dolore odit vitae incidunt quisquam fugiat qui dicta, numquam perspiciatis natus maiores
+                            dolor, nesciunt neque laborum?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                    </div>
+                    <img class="box-16__img" src="img/background.webp" alt="image">
+                </div>
+            </div>
+
+            <div class="practice__container block">
+
+                <h3 class="block__subtitle">Background Image + Z-index: -1; Важко поміняти з адмінки</h3>
+
+                <div class="block__items box-17">
+
+                    <div class="box-17__header">Some title</div>
+                    <div class="box-17__text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid ea ut rem asperiores
+                            dolore odit vitae incidunt quisquam fugiat qui dicta, numquam perspiciatis natus maiores
+                            dolor, nesciunt neque laborum?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in modi
+                            commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                            quisquam atque et odio dolorum!</p>
+                    </div>
+                    <!-- <img class="box-16__img" src="img/background.webp" alt="image"> -->
+                </div>
+            </div>
+
+            <div class="practice__container block">
+                <div class="block__items box-18">
+                    <h3 class="block__subtitle">List</h3>
+
+                    <ul class="block__list box-18">
+                        <li class="box-18__item">Item - 1</li>
+                        <li class="box-18__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
+                            dolorem
+                            molestias ducimus amet labore modi. Soluta modi blanditiis reprehenderit nobis asperiores
+                            labore
+                            dolores sapiente odio eligendi earum, alias ipsa libero.</li>
+                        <li class="box-18__item">Item - 3</li>
+                        <li class="box-18__item">Item - 4</li>
+                    </ul>
+                    <img class="box-18__img" src="img/background.webp" alt="image">
+                </div>
+            </div>
+
+            <div class="practice__container block">
+                <div class="block__items box-19">
+                    <h3 class="block__subtitle">Липке меню для певного блоку</h3>
+                    <div class="flex">
+                        <div class="box-19__menu side">
+                            <div class="side__item">
+                                Sticky menu
+                            </div>
+                        </div>
+                        <div class="box-19__text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid ea ut rem
+                                asperiores
+                                dolore odit vitae incidunt quisquam fugiat qui dicta, numquam perspiciatis natus maiores
+                                dolor, nesciunt neque laborum?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                                modi
+                                commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                                quisquam atque et odio dolorum!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                                modi
+                                commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                                quisquam atque et odio dolorum!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                                modi
+                                commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                                quisquam atque et odio dolorum!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                                modi
+                                commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                                quisquam atque et odio dolorum!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                                modi
+                                commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                                quisquam atque et odio dolorum!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                                modi
+                                commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                                quisquam atque et odio dolorum!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                                modi
+                                commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                                quisquam atque et odio dolorum!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid ea ut rem
+                                asperiores
+                                dolore odit vitae incidunt quisquam fugiat qui dicta, numquam perspiciatis natus maiores
+                                dolor, nesciunt neque laborum?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                                modi
+                                commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                                quisquam atque et odio dolorum!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                                modi
+                                commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                                quisquam atque et odio dolorum!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                                modi
+                                commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                                quisquam atque et odio dolorum!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                                modi
+                                commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                                quisquam atque et odio dolorum!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                                modi
+                                commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                                quisquam atque et odio dolorum!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                                modi
+                                commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                                quisquam atque et odio dolorum!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                                modi
+                                commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                                quisquam atque et odio dolorum!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-19__text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid ea ut rem
+                        asperiores
+                        dolore odit vitae incidunt quisquam fugiat qui dicta, numquam perspiciatis natus maiores
+                        dolor, nesciunt neque laborum?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                        modi
+                        commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                        quisquam atque et odio dolorum!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                        modi
+                        commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                        quisquam atque et odio dolorum!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                        modi
+                        commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                        quisquam atque et odio dolorum!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                        modi
+                        commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                        quisquam atque et odio dolorum!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                        modi
+                        commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                        quisquam atque et odio dolorum!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                        modi
+                        commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                        quisquam atque et odio dolorum!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                        modi
+                        commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                        quisquam atque et odio dolorum!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid ea ut rem
+                        asperiores
+                        dolore odit vitae incidunt quisquam fugiat qui dicta, numquam perspiciatis natus maiores
+                        dolor, nesciunt neque laborum?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                        modi
+                        commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                        quisquam atque et odio dolorum!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                        modi
+                        commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                        quisquam atque et odio dolorum!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                        modi
+                        commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                        quisquam atque et odio dolorum!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                        modi
+                        commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                        quisquam atque et odio dolorum!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                        modi
+                        commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                        quisquam atque et odio dolorum!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                        modi
+                        commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                        quisquam atque et odio dolorum!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorem error facilis in
+                        modi
+                        commodi quibusdam! Veniam, explicabo sapiente hic ab necessitatibus saepe, itaque sit
+                        quisquam atque et odio dolorum!</p>
+                </div>
+            </div>
+
+            <div class="title__container block-header">
+                <h2 class="block-header__subtitle" id="hometask">Домашка</h2>
+            </div>
+
+            <div class="hometask__container block">
+                <div class="block__agency img">
+                    <img src="img/oval.svg" alt="oval" class="img__element-oval">
+                    <img src="img/computer.webp" alt="computer with purple background" class="img__element-computer">
+                    <img src="img/girl.webp" alt="girl with yellow background" class="img__element-girl">
+                    <img src="img/stars.webp" alt="stars with orange background" class="img__element-stars">
+                    <img src="img/cloud.svg" alt="cloud" class="img__element-cloud">
+                    <img src="img/arrow.svg" alt="arrow" class="img__element-arrow">
+                    <img src="img/element.svg" alt="shape" class="img__element-shape">
+                    <img src="img/block.webp" alt="block" class="img__element-block">
+                </div>
+            </div>
+
+            <div class="hometask__container block block-portfolio">
+                <div class="block__portfolio last-works">
+                    <a href="" class="last-works__button">Design</a>
+                    <p class="last-works__text">Sofa</p>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <p>All rights are reserved 2024 </p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
