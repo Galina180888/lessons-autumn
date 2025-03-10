@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/burger-menu.png" type="image/png">
+    <title>Menu burger js</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <a href="" class="header__logo">
+                    <img src="/img/logo-panem.png" alt="Логотип"></a>
+                <div class="header__menu menu">
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li><a data-goto=".page__section_1" href="#" class="menu__link">Основні підходи</a></li>
+                            <li><a data-goto=".page__section_2" href="#" class="menu__link sub__menu">Mobile-First</a>
+                                <span class="menu__arrow"></span>
+                                <ul class="menu__sub-list">
+                                    <li><a href="" class="menu__sub-link">Суть Mobile-First</a></li>
+                                    <li><a href="" class="menu__sub-link">Як застосовується</a></li>
+                                    <li><a href="" class="menu__sub-link">Приклад коду</a></li>
+                                </ul>
+                            </li>
+                            <li><a data-goto=".page__section_3" href="#" class="menu__link sub__menu">Desktop-First</a>
+                                <span class="menu__arrow"></span>
+                                <ul class="menu__sub-list">
+                                    <li><a href="#3-1" class="menu__sub-link">Суть</a></li>
+                                    <li><a href="#3-2" class="menu__sub-link">Як
+                                            застосовується</a></li>
+                                    <li><a href="#3-3" class="menu__sub-link">Приклад
+                                            коду</a></li>
+                                </ul>
+                            </li>
+                            <li><a data-goto=".page__section_4" href="#" class="menu__link">Desktop-First</a></li>
+                            <li><a data-goto=".page__section_5" href="#" class="menu__link sub__menu">Responsive
+                                    Design</a>
+                                <span class="menu__arrow"></span>
+                                <ul class="menu__sub-list">
+                                    <li><a href="" class="menu__sub-link">Суть</a></li>
+                                    <li><a href="" class="menu__sub-link">Як застосовується</a></li>
+                                    <li><a href="" class="menu__sub-link">Приклад коду</a></li>
+                                </ul>
+                            </li>
+                            <li><a data-goto=".page__section_6" href="#" class="menu__link">Що краще</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="page">
+
+            <section class="page__section page__section_1">
+
+                <h1 class="page__title">Основні підходи до верстки</h1>
+                <div class="page__text">
+                    <p>У верстці є кілька основних підходів. <b>Mobile-First</b> означає спочатку створення мобільної
+                        версії
+                        сайту, а потім адаптацію під планшети та десктопи – це актуально, коли більшість трафіку йде зі
+                        смартфонів. <b>Desktop-First</b> працює навпаки: спочатку розробляється десктопна версія, а
+                        потім
+                        додаються стилі для менших екранів – підходить для складних веб-застосунків.</p>
+                    <p>Також існує <b>Adaptive Design</b>, де створюються окремі версії сайту для кожного типу
+                        пристроїв, і
+                        Responsive Design, який використовує гнучкі сітки, медіа-запити та відсоткові розміри, щоб сайт
+                        динамічно підлаштовувався під будь-який екран. У сучасній розробці найчастіше комбінують
+                        <b>Mobile-First</b> та <b>Responsive Design</b> для універсального та зручного рішення.
+                    </p>
+                </div>
+            </section>
+
+            <section class="page__section page__section_2">
+
+                <h2 class="page__sub-title">Mobile-First (Мобайл-Фьорст)</h2>
+                <div class="page__text">
+                    <p><b>Суть:</b> спочатку верстають мобільну версію сайту, а потім додають стилі для планшетів і
+                        десктопів
+                        через медіа-запити.</p>
+                    <p><b>Як застосовується:</b></p>
+                    <ul class="list__text">
+                        <li class="list-item__text">Коли більшість користувачів заходять із мобільних пристроїв.</li>
+                        <li class="list-item__text">Для сучасних сайтів, де важлива швидкість завантаження.</li>
+                        <li class="list-item__text">Якщо потрібно оптимізувати сайт для SEO (Google віддає перевагу
+                            mobile-friendly сайтам).</li>
+                    </ul>
+                    <p><b>Приклад коду</b> (спочатку стилі для мобільних, потім для ширших екранів):</p>
+                    <pre class="example__text">
+                        <code>
+                        body {
+                            font-size: 16px;
+                        }
+                        
+                        @media (min-width: 768px) {
+                            body {
+                                font-size: 18px;
+                            }
+                        }
+                        
+                        @media (min-width: 1024px) {
+                            body {
+                                font-size: 20px;
+                            }
+                        }
+                        
+                        </code>
+                    </pre>
+                </div>
+            </section>
+
+            <section class="page__section page__section_3">
+
+                <h2 class="page__sub-title">Desktop-First</h2>
+                <div class="page__text">
+                    <p id="3-1"><b>Суть:</b> спочатку верстають десктопну версію, а потім адаптують для
+                        планшетів і мобільних,
+                        додаючи
+                        стилі через max-width.</p>
+                    <p id="3-2"><b>Як застосовується:</b></p>
+                    <ul class="list__text">
+                        <li class="list-item__text">Коли більшість трафіку йде з десктопів.</li>
+                        <li class="list-item__text">Для складних веб-застосунків (CRM, ERP тощо), які зручніше
+                            використовувати на великих екранах.</li>
+                    </ul>
+                    <p id="3-3"><b>Приклад коду</b> (спочатку стилі для мобільних, потім для ширших
+                        екранів):</p>
+                    <pre class="example__text">
+                        <code>
+                            body {
+                                font-size: 20px;
+                            }
+                            
+                            @media (max-width: 1024px) {
+                                body {
+                                    font-size: 18px;
+                                }
+                            }
+                            
+                            @media (max-width: 768px) {
+                                body {
+                                    font-size: 16px;
+                                }
+                            }
+                        
+                        </code>
+                    </pre>
+                </div>
+            </section>
+
+            <section class="page__section page__section_4">
+
+                <h2 class="page__sub-title">Adaptive Design (Адаптивний дизайн)</h2>
+                <div class="page__text">
+                    <p><b>Суть:</b> кожна версія сайту створюється окремо для різних пристроїв (мобільна, планшетна,
+                        десктопна).</p>
+                    <p><b>Як застосовується:</b></p>
+                    <ul class="list__text">
+                        <li class="list-item__text">Для сайтів, де потрібно сильно відрізняти дизайн на різних
+                            пристроях.</li>
+                        <li class="list-item__text">Наприклад, на мобільних може бути одна версія меню, а на десктопах —
+                            інша.</li>
+                        <li class="list-item__text">Використовуються <b>серверні рішення</b> для відправки різного
+                            HTML-коду залежно від пристрою.</li>
+                    </ul>
+                    <p><b>Приклад:</b> Google має окремі версії сайту для мобільних (m.google.com) і десктопних
+                        (google.com).
+                    </p>
+                </div>
+            </section>
+
+            <section class="page__section page__section_5">
+
+                <h2 class="page__sub-title">Responsive Design (Респонсивний дизайн)</h2>
+                <div class="page__text">
+                    <p><b>Суть:</b> сайт автоматично підлаштовується під будь-який екран завдяки гнучким сіткам,
+                        відсотковим значенням і медіа-запитам.</p>
+                    <p><b>Як застосовується:</b></p>
+                    <ul class="list__text">
+                        <li class="list-item__text">Найпоширеніший варіант для сучасних сайтів.</li>
+                        <li class="list-item__text">Легко підтримується, бо немає окремих версій для кожного пристрою.
+                        </li>
+                        <li class="list-item__text">Використовуються гнучкі сітки (Flexbox, Grid) та відсоткові розміри.
+                        </li>
+                    </ul>
+                    <p><b>Приклад гнучкої верстки:</b></p>
+                    <pre class="example__text">
+                        <code>
+                            .container {
+                                width: 80%;
+                                max-width: 1200px;
+                                margin: 0 auto;
+                            }
+                            
+                            .image {
+                                width: 100%;
+                                height: auto;
+                            }
+                        </code>
+                    </pre>
+                </div>
+            </section>
+
+            <section class="page__section page__section_6">
+
+                <h2 class="page__sub-title">Що краще вибрати?</h2>
+                <div class="page__text">
+                    <ul class="list__text">
+                        <li class="list-item__text">Якщо трафік мобільний → Mobile-First</li>
+                        <li class="list-item__text">Якщо проект складний, орієнтований на ПК → Desktop-First</li>
+                        <li class="list-item__text">Якщо потрібно окремі версії під кожен пристрій → Adaptive</li>
+                        <li class="list-item__text">Якщо хочеш універсальне рішення → Responsive</li>
+                    </ul>
+                    <p><b>У сучасній розробці найчастіше використовують Mobile-First + Responsive Design!</b></p>
+                </div>
+            </section>
+
+        </main>
+
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
