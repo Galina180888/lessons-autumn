@@ -16,7 +16,7 @@ body._lock {
 
 .wrapper {
     min-height: 100%;
-    background-color: #303032;
+    background-color: #080808;
 }
 
 .page {
@@ -115,6 +115,7 @@ body._lock {
     width: 100%;
     z-index: 10;
     background-color: #080808;
+    border-bottom: #f1f2f2 solid 1px;
 }
 
 .header__container {
@@ -364,4 +365,37 @@ body._pc .sub__menu::after {
         font-size: 20px;
         color: #303032;
     }
+}
+
+/* перевірка скролу */
+
+/* * {
+    outline: 1px solid red;
+} */
+
+/* прокручування для довгого коду */
+
+.example__text {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    /* Додає перенос рядків */
+    word-wrap: break-word;
+    max-width: 100%;
+    /* Не дає виходити за межі */
+}
+
+/* перенесення слів у <code> */
+
+.example__text code {
+    display: block;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+/* обмеження ширини для <pre> */
+
+pre {
+    max-width: 100%;
+    overflow-x: auto;
 }
