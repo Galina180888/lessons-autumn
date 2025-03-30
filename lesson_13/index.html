@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/code.png" type="image/png">
+    <title>Урок 13</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header id="header" class="header">
+            <div class="header__menu menu-general">
+                <ul class="menu-general__list items-menu">
+                    <li class="items-menu__item">
+                        <a href="#practice" class="items-menu__link">Практика</a>
+                    </li>
+                    <li class="items-menu__item">
+                        <a href="#hometask" class="items-menu__link">Домашка</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <main class="page">
+
+            <div class="title__container block-header">
+                <h1 class="block-header__title">Урок 13 - FLex</h1>
+
+
+                <div class="title__container block-header">
+                    <h2 class="block-header__subtitle" id="practice">Практика</h2>
+                </div>
+
+                <div class="practice__container block block-margin">
+
+                    <h3 class="block__subtitle">Flex</h3>
+
+                    <!-- Flax - контейнер -->
+
+                    <div class="flex">
+                        <!-- Flax - element -->
+                        <div class="flex__item">1</div>
+                        <span class="flex__item">2</span>
+                        <a href="#" class="flex__item">3</a>
+                        <div class="flex__item">4</div>
+                    </div>
+                </div>
+
+                <div class="practice__container block block-margin">
+
+                    <h3 class="block__subtitle">Inline-Flex</h3>
+
+                    <!-- Flex - контейнер -->
+
+                    <div class="flex-1">
+                        <!-- Flex - element -->
+                        <div class="flex__item-1">1</div>
+                        <span class="flex__item-1">2</span>
+                        <a href="#" class="flex__item-1">3</a>
+                        <div class="flex__item-1">4</div>
+                    </div>
+                </div>
+
+                <div class="practice__container block block-margin">
+
+                    <h3 class="block__subtitle">Nowrap</h3>
+
+                    <!-- Flex - контейнер -->
+
+                    <div class="flex-2">
+                        <!-- Flex - element -->
+                        <div class="flex__item-2">1</div>
+                        <span class="flex__item-2">2</span>
+                        <a href="#" class="flex__item-2">3</a>
+                        <div class="flex__item-2">4</div>
+                        <div class="flex__item-2">1</div>
+                        <span class="flex__item-2">2</span>
+                        <a href="#" class="flex__item-2">3</a>
+                        <div class="flex__item-2">4</div>
+                        <div class="flex__item-2">1</div>
+                        <span class="flex__item-2">2</span>
+                        <a href="#" class="flex__item-2">3</a>
+                        <div class="flex__item-2">4</div>
+                        <div class="flex__item-2">1</div>
+                        <span class="flex__item-2">2</span>
+                        <a href="#" class="flex__item-2">3</a>
+                        <div class="flex__item-2">4</div>
+                    </div>
+                </div>
+
+
+
+                <div class="practice__container block block-margin">
+
+                    <h3 class="block__subtitle">Wrap</h3>
+
+                    <!-- Flax - контейнер -->
+
+                    <div class="flex-3">
+                        <!-- Flax - element -->
+                        <div class="flex__item-3">1</div>
+                        <span class="flex__item-3">2</span>
+                        <a href="#" class="flex__item-3">3</a>
+                        <div class="flex__item-3">4</div>
+                        <div class="flex__item-3">5</div>
+                        <span class="flex__item-3">6</span>
+                        <a href="#" class="flex__item-3">7</a>
+                        <div class="flex__item-3">8</div>
+                        <div class="flex__item-3">9</div>
+                        <span class="flex__item-3">10</span>
+                        <a href="#" class="flex__item-3">11</a>
+                        <div class="flex__item-3">12</div>
+                        <div class="flex__item-3">13</div>
+                        <span class="flex__item-3">14</span>
+                        <a href="#" class="flex__item-3">15</a>
+                        <div class="flex__item-3">16</div>
+                    </div>
+                </div>
+
+                <div class="practice__container block block-margin">
+
+                    <h3 class="block__subtitle">Wrap revers</h3>
+
+                    <!-- Flax - контейнер -->
+
+                    <div class="flex-4">
+                        <!-- Flax - element -->
+                        <div class="flex__item-4">1</div>
+                        <span class="flex__item-4">2</span>
+                        <a href="#" class="flex__item-4">3</a>
+                        <div class="flex__item-4">4</div>
+                        <div class="flex__item-4">5</div>
+                        <span class="flex__item-4">6</span>
+                        <a href="#" class="flex__item-4">7</a>
+                        <div class="flex__item-4">8</div>
+                        <div class="flex__item-4">9</div>
+                        <span class="flex__item-4">10</span>
+                        <a href="#" class="flex__item-4">11</a>
+                        <div class="flex__item-4">12</div>
+                        <div class="flex__item-4">13</div>
+                        <span class="flex__item-4">14</span>
+                        <a href="#" class="flex__item-4">15</a>
+                        <div class="flex__item-4">16</div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-start</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-5">
+                    <!-- Flex - element -->
+                    <div class="flex__item-5">1</div>
+                    <span class="flex__item-5">2</span>
+                    <a href="#" class="flex__item-5">3</a>
+                    <div class="flex__item-5">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-end</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-6">
+                    <!-- Flex - element -->
+                    <div class="flex__item-6">1</div>
+                    <span class="flex__item-6">2</span>
+                    <a href="#" class="flex__item-6">3</a>
+                    <div class="flex__item-6">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-center</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-7">
+                    <!-- Flex - element -->
+                    <div class="flex__item-7">1</div>
+                    <span class="flex__item-7">2</span>
+                    <a href="#" class="flex__item-7">3</a>
+                    <div class="flex__item-7">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Space Between</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-8">
+                    <!-- Flex - element -->
+                    <div class="flex__item-8">1</div>
+                    <span class="flex__item-8">2</span>
+                    <a href="#" class="flex__item-8">3</a>
+                    <div class="flex__item-8">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Space Around</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-9">
+                    <!-- Flex - element -->
+                    <div class="flex__item-9">1</div>
+                    <span class="flex__item-9">2</span>
+                    <a href="#" class="flex__item-9">3</a>
+                    <div class="flex__item-9">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Space Evently</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-10">
+                    <!-- Flex - element -->
+                    <div class="flex__item-10">1</div>
+                    <span class="flex__item-10">2</span>
+                    <a href="#" class="flex__item-10">3</a>
+                    <div class="flex__item-10">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Align Items Stretch</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-11">
+                    <!-- Flex - element -->
+                    <div class="flex__item-11">1</div>
+                    <span class="flex__item-11">2</span>
+                    <a href="#" class="flex__item-11">3</a>
+                    <div class="flex__item-11">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Align Items Stretch + Flex-end</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-12">
+                    <!-- Flex - element -->
+                    <div class="flex__item-12">1</div>
+                    <span class="flex__item-12">2</span>
+                    <a href="#" class="flex__item-12">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
+                        cum deleniti tempore iure et esse. Sit accusamus ex perferendis earum inventore consectetur sed
+                        provident illum dolorem quos, fugit voluptatum ipsa!</a>
+                    <div class="flex__item-12">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Align Items Stretch + center</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-13">
+                    <!-- Flex - element -->
+                    <div class="flex__item-13">1</div>
+                    <span class="flex__item-13">2</span>
+                    <a href="#" class="flex__item-13">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
+                        cum deleniti tempore iure et esse. Sit accusamus ex perferendis earum inventore consectetur sed
+                        provident illum dolorem quos, fugit voluptatum ipsa!</a>
+                    <div class="flex__item-13">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Align Items Stretch + Height</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-14">
+                    <!-- Flex - element -->
+                    <div class="flex__item-14">1</div>
+                    <span class="flex__item-14">2</span>
+                    <a href="#" class="flex__item-14">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
+                        cum deleniti tempore iure et esse. Sit accusamus ex perferendis earum inventore consectetur sed
+                        provident illum dolorem quos, fugit voluptatum ipsa!</a>
+                    <div class="flex__item-14">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Align Items Stretch + start</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-15">
+                    <!-- Flex - element -->
+                    <div class="flex__item-15">1</div>
+                    <span class="flex__item-15">2</span>
+                    <a href="#" class="flex__item-15">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
+                        cum deleniti tempore iure et esse. Sit accusamus ex perferendis earum inventore consectetur sed
+                        provident illum dolorem quos, fugit voluptatum ipsa!</a>
+                    <div class="flex__item-15">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-direction row (за замовчанням)</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-16">
+                    <!-- Flex - element -->
+                    <div class="flex__item-16">1</div>
+                    <span class="flex__item-16">2</span>
+                    <a href="#" class="flex__item-16">3</a>
+                    <div class="flex__item-16">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-direction row-reverse</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-17">
+                    <!-- Flex - element -->
+                    <div class="flex__item-17">1</div>
+                    <span class="flex__item-17">2</span>
+                    <a href="#" class="flex__item-17">3</a>
+                    <div class="flex__item-17">4</div>
+                </div>
+            </div>
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-direction row-reverse + flex-end</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-18">
+                    <!-- Flex - element -->
+                    <div class="flex__item-18">1</div>
+                    <span class="flex__item-18">2</span>
+                    <a href="#" class="flex__item-18">3</a>
+                    <div class="flex__item-18">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-direction row-reverse + flex-start + flex-item (як в html)</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-19">
+                    <!-- Flex - element -->
+                    <div class="flex__item-19">1</div>
+                    <span class="flex__item-19">2</span>
+                    <a href="#" class="flex__item-19">3</a>
+                    <div class="flex__item-19">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-direction column</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-20">
+                    <!-- Flex - element -->
+                    <div class="flex__item-20">1</div>
+                    <span class="flex__item-20">2</span>
+                    <a href="#" class="flex__item-20">3</a>
+                    <div class="flex__item-20">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-direction column + align-items:stretch;</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-21">
+                    <!-- Flex - element -->
+                    <div class="flex__item-21">1</div>
+                    <span class="flex__item-21">2</span>
+                    <a href="#" class="flex__item-21">3</a>
+                    <div class="flex__item-21">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-direction column + align-items: end;</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-22">
+                    <!-- Flex - element -->
+                    <div class="flex__item-22">1</div>
+                    <span class="flex__item-22">2</span>
+                    <a href="#" class="flex__item-22">3</a>
+                    <div class="flex__item-22">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-direction column-reverse + flex-end;</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-23">
+                    <!-- Flex - element -->
+                    <div class="flex__item-23">1</div>
+                    <span class="flex__item-23">2</span>
+                    <a href="#" class="flex__item-23">3</a>
+                    <div class="flex__item-23">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-direction column-reverse + flex-start;</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-24">
+                    <!-- Flex - element -->
+                    <div class="flex__item-24">1</div>
+                    <span class="flex__item-24">2</span>
+                    <a href="#" class="flex__item-24">3</a>
+                    <div class="flex__item-24">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Gap</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-25">
+                    <!-- Flex - element -->
+                    <div class="flex__item-25">1</div>
+                    <span class="flex__item-25">2</span>
+                    <a href="#" class="flex__item-25">3</a>
+                    <div class="flex__item-25">4</div>
+                    <div class="flex__item-25">1</div>
+                    <span class="flex__item-25">2</span>
+                    <a href="#" class="flex__item-25">3</a>
+                    <div class="flex__item-25">4</div>
+                    <div class="flex__item-25">1</div>
+                    <span class="flex__item-25">2</span>
+                    <a href="#" class="flex__item-25">3</a>
+                    <div class="flex__item-25">4</div>
+                    <div class="flex__item-25">1</div>
+                    <span class="flex__item-25">2</span>
+                    <a href="#" class="flex__item-25">3</a>
+                    <div class="flex__item-25">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Gap diffirent for colums and rows</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-26">
+                    <!-- Flex - element -->
+                    <div class="flex__item-26">1</div>
+                    <span class="flex__item-26">2</span>
+                    <a href="#" class="flex__item-26">3</a>
+                    <div class="flex__item-26">4</div>
+                    <div class="flex__item-26">1</div>
+                    <span class="flex__item-26">2</span>
+                    <a href="#" class="flex__item-26">3</a>
+                    <div class="flex__item-26">4</div>
+                    <div class="flex__item-26">1</div>
+                    <span class="flex__item-26">2</span>
+                    <a href="#" class="flex__item-26">3</a>
+                    <div class="flex__item-26">4</div>
+                    <div class="flex__item-26">1</div>
+                    <span class="flex__item-26">2</span>
+                    <a href="#" class="flex__item-26">3</a>
+                    <div class="flex__item-26">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Gap diffirent for colums and rows</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-27">
+                    <!-- Flex - element -->
+                    <div class="flex__item-27">1</div>
+                    <span class="flex__item-27">2</span>
+                    <a href="#" class="flex__item-27">3</a>
+                    <div class="flex__item-27">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Властивості елементів: align-self</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-28">
+                    <!-- Flex - element -->
+                    <div class="flex__item-28">1</div>
+                    <span class="flex__item-28">2</span>
+                    <a href="#" class="flex__item-28">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
+                        doloremque eligendi porro, repellat quas doloribus sint facere quis hic nam illo perferendis aut
+                        deleniti fugit. Tempora architecto vero sunt reprehenderit!</a>
+                    <div class="flex__item-28">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-grow</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-29">
+                    <!-- Flex - element -->
+                    <div class="flex__item-29">1</div>
+                    <span class="flex__item-29">2</span>
+                    <a href="#" class="flex__item-29">Lorem, ipsum dolor sit amet</a>
+                    <div class="flex__item-29">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-srink: 0; </h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-30">
+                    <!-- Flex - element -->
+                    <div class="flex__item-30">1</div>
+                    <span class="flex__item-30">2</span>
+                    <a href="#" class="flex__item-30">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
+                        doloremque eligendi porro, repellat quas doloribus sint facere quis hic nam illo perferendis aut
+                        deleniti fugit. Tempora architecto vero sunt reprehenderit!</a>
+                    <div class="flex__item-30">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-srink: 1; (за замовчанням)</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-31">
+                    <!-- Flex - element -->
+                    <div class="flex__item-31">1</div>
+                    <span class="flex__item-31">2</span>
+                    <a href="#" class="flex__item-31">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
+                        doloremque eligendi porro, repellat quas doloribus sint facere quis hic nam illo perferendis aut
+                        deleniti fugit. Tempora architecto vero sunt reprehenderit!</a>
+                    <div class="flex__item-31">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-basis auto; (за замовчанням - розмір по контенту)</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-32">
+                    <!-- Flex - element -->
+                    <div class="flex__item-32">1</div>
+                    <span class="flex__item-32">2</span>
+                    <a href="#" class="flex__item-32">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
+                        doloremque eligendi porro, repellat quas doloribus sint facere quis hic nam illo perferendis aut
+                        deleniti fugit. Tempora architecto vero sunt reprehenderit!</a>
+                    <div class="flex__item-32">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-basis: 350 px;</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-33">
+                    <!-- Flex - element -->
+                    <div class="flex__item-33">1</div>
+                    <span class="flex__item-33">2</span>
+                    <a href="#" class="flex__item-33">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
+                        doloremque eligendi porro, repellat quas doloribus sint facere quis hic nam illo perferendis aut
+                        deleniti fugit. Tempora architecto vero sunt reprehenderit!</a>
+                    <div class="flex__item-33">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-basis: 350 px + flex-shrink:0;</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-34">
+                    <!-- Flex - element -->
+                    <div class="flex__item-34">1</div>
+                    <span class="flex__item-34">2</span>
+                    <a href="#" class="flex__item-34">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
+                        doloremque eligendi porro, repellat quas doloribus sint facere quis hic nam illo perferendis aut
+                        deleniti fugit. Tempora architecto vero sunt reprehenderit!</a>
+                    <div class="flex__item-34">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-basis: 350 px + flex-shrink:1;</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-35">
+                    <!-- Flex - element -->
+                    <div class="flex__item-35">1</div>
+                    <span class="flex__item-35">2</span>
+                    <a href="#" class="flex__item-35">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
+                        doloremque eligendi porro, repellat quas doloribus sint facere quis hic nam illo perferendis aut
+                        deleniti fugit. Tempora architecto vero sunt reprehenderit!</a>
+                    <div class="flex__item-35">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-basis: 150 px + flex-grow:0;</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-36">
+                    <!-- Flex - element -->
+                    <div class="flex__item-36">1</div>
+                    <span class="flex__item-36">2</span>
+                    <a href="#" class="flex__item-36">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
+                        doloremque eligendi porro, repellat quas doloribus sint facere quis hic nam illo perferendis aut
+                        deleniti fugit. Tempora architecto vero sunt reprehenderit!</a>
+                    <div class="flex__item-36">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-basis: 150 px + flex-grow:1;</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-37">
+                    <!-- Flex - element -->
+                    <div class="flex__item-37">1</div>
+                    <span class="flex__item-37">2</span>
+                    <a href="#" class="flex__item-37">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
+                        doloremque eligendi porro, repellat quas doloribus sint facere quis hic nam illo perferendis aut
+                        deleniti fugit. Tempora architecto vero sunt reprehenderit!</a>
+                    <div class="flex__item-37">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-basis: 25%;</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-38">
+                    <!-- Flex - element -->
+                    <div class="flex__item-38">1</div>
+                    <span class="flex__item-38">2</span>
+                    <a href="#" class="flex__item-38">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
+                        doloremque eligendi porro, repellat quas doloribus sint facere quis hic nam illo perferendis aut
+                        deleniti fugit. Tempora architecto vero sunt reprehenderit!</a>
+                    <div class="flex__item-38">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-basis: 25% + gap;</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-39">
+                    <!-- Flex - element -->
+                    <div class="flex__item-39">1</div>
+                    <span class="flex__item-39">2</span>
+                    <a href="#" class="flex__item-39">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
+                        doloremque eligendi porro, repellat quas doloribus sint facere quis hic nam illo perferendis aut
+                        deleniti fugit. Tempora architecto vero sunt reprehenderit!</a>
+                    <div class="flex__item-39">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex-basis: 1 + gap;</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-40">
+                    <!-- Flex - element -->
+                    <div class="flex__item-40">1</div>
+                    <span class="flex__item-40">2</span>
+                    <a href="#" class="flex__item-40">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
+                        doloremque eligendi porro, repellat quas doloribus sint facere quis hic nam illo perferendis aut
+                        deleniti fugit. Tempora architecto vero sunt reprehenderit!</a>
+                    <div class="flex__item-40">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex:1 1 1px;</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-41">
+                    <!-- Flex - element -->
+                    <div class="flex__item-41">1</div>
+                    <span class="flex__item-41">2</span>
+                    <a href="#" class="flex__item-41">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
+                        doloremque eligendi porro, repellat quas doloribus sint facere quis hic nam illo perferendis aut
+                        deleniti fugit. Tempora architecto vero sunt reprehenderit!</a>
+                    <div class="flex__item-41">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Flex:1 1 1px;</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-42">
+                    <!-- Flex - element -->
+                    <div class="flex__item-42">1</div>
+                    <span class="flex__item-42">2</span>
+                    <a href="#" class="flex__item-42">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
+                        doloremque eligendi porro, repellat quas doloribus sint facere quis hic nam illo perferendis aut
+                        deleniti fugit. Tempora architecto vero sunt reprehenderit!</a>
+                    <div class="flex__item-42">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Order;</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-43">
+                    <!-- Flex - element -->
+                    <div class="flex__item-43">1</div>
+                    <span class="flex__item-43">2</span>
+                    <a href="#" class="flex__item-43">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
+                        doloremque eligendi porro, repellat quas doloribus sint facere quis hic nam illo perferendis aut
+                        deleniti fugit. Tempora architecto vero sunt reprehenderit!</a>
+                    <div class="flex__item-43">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Order + column;</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="flex-44">
+                    <!-- Flex - element -->
+                    <div class="flex__item-44">1</div>
+                    <span class="flex__item-44">2</span>
+                    <a href="#" class="flex__item-44">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
+                        doloremque eligendi porro, repellat quas doloribus sint facere quis hic nam illo perferendis aut
+                        deleniti fugit. Tempora architecto vero sunt reprehenderit!</a>
+                    <div class="flex__item-44">4</div>
+                </div>
+            </div>
+
+            <div class="practice__container block block-margin">
+
+                <h3 class="block__subtitle">Практика</h3>
+
+                <!-- Flex - контейнер -->
+
+                <div class="row">
+                    <!-- Flex - element -->
+                    <div class="column">
+                        <img src="img/2148416838.webp" alt="image">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus suscipit exercitationem
+                            voluptatibus corrupti earum ut, eius incidunt perspiciatis. Tempore rerum laborum inventore
+                            ipsum quisquam perferendis dicta tempora perspiciatis similique ab?</p>
+                        <a href="https://zhovten-kino.kyiv.ua/movie/356288">See film</a>
+                    </div>
+                    <div class="column">
+                        <img src="img/2148416838.webp" alt="image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nostrum sed laborum cum unde
+                            voluptatibus delectus necessitatibus dolore, culpa consequuntur harum mollitia, omnis eum.
+                            Facilis quis reprehenderit animi repellendus beatae.</p>
+                        <a href="https://zhovten-kino.kyiv.ua/movie/356288">See film</a>
+                    </div>
+                    <div href="#" class="column">
+                        <img src="img/2148416838.webp" alt="image">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, maiores suscipit
+                            assumenda, sapiente temporibus aspernatur perspiciatis iusto laudantium fuga incidunt minus,
+                            quisquam excepturi quos magnam consectetur veritatis deleniti quasi voluptatem.</p>
+                        <a href="https://zhovten-kino.kyiv.ua/movie/356288">See film</a>
+                    </div>
+                    <div class="column">
+                        <img src="img/2148416838.webp" alt="image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quas maxime illo commodi
+                            quaerat, unde, nesciunt earum eos at dolor nobis optio ea velit. Ex voluptas cum quo rerum
+                            magnam.</p>
+                        <a href="https://zhovten-kino.kyiv.ua/movie/356288">See film</a>
+                    </div>
+                    <div class="column">
+                        <img src="img/2148416838.webp" alt="image">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero totam minus sequi molestiae eos
+                            soluta? Ad temporibus consectetur possimus quaerat accusantium sed ipsam adipisci, pariatur
+                            eveniet dicta quisquam alias harum!</p>
+                        <a href="https://zhovten-kino.kyiv.ua/movie/356288">See film</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="title__container block-header">
+                <h2 class="block-header__subtitle" id="hometask">Домашка</h2>
+            </div>
+
+            <div class="hometask__container block-margin block-height">
+                <a href="#" class="some-link">Some link for practice to hometask</a>
+            </div>
+    </div>
+    </main>
+
+    <footer class="footer">
+        <p>All rights are reserved 2025 </p>
+    </footer>
+    </div>
+
+</body>
+
+</html>
