@@ -75,7 +75,7 @@ div {
 
 .block__item:nth-child(1),
 .block__item:nth-child(4) {
-    background-image: url('img/sofa.webp');
+    background-image: url('../img/sofa.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -85,7 +85,7 @@ div {
 
 .block__item:nth-child(2),
 .block__item:nth-child(3) {
-    background-image: url('img/key-board.webp');
+    background-image: url('../img/key-board.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -94,11 +94,11 @@ div {
 }
 
 .block__item:nth-child(3) {
-    background-image: url('img/Illustration.webp');
+    background-image: url('../img/Illustration.webp');
 }
 
 .block__item:nth-child(4) {
-    background-image: url('img/done.webp');
+    background-image: url('../img/done.webp');
     margin-bottom: 60px;
 }
 
