@@ -219,3 +219,36 @@ input[type="radio"] {
     font-size: 24px;
     line-height: 30px;
 }
+
+.flover__lab {
+    display: inline-flex;
+    gap: 10px;
+    line-height: 1.3;
+    cursor: pointer;
+}
+
+.flover__lab::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border: #303032 1px solid;
+}
+
+.flover__check {
+    appearance: none;
+    border: none;
+}
+
+.flover__check:active {
+    appearance: none;
+    background: none;
+    border: none;
+}
+
+.flover__check:focus-visible+.flover__lab {
+    outline: #303032 1px solid;
+}
+
+.flover__check:checked+.flover__lab::before {
+    background: url("../img/favicon.png") 0 0 / 100% no-repeat;
+}
