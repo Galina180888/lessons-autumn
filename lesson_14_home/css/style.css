@@ -1,0 +1,264 @@
+/* скидання стилів  */
+
+@import url("reset.css");
+
+/* підключення стилів */
+
+@import url("fonts.css");
+
+/* підключення шрифтів */
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* стилізація */
+
+/* загальні стилі */
+
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+    background-color: #fff;
+}
+
+[class*="__container"] {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-inline: 10px;
+    padding-block: 25px;
+}
+
+.page {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact__container {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 88px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 59px 124px 0px rgba(0, 0, 0, 0.12);
+    gap: 80px;
+}
+
+.block__contact-title {
+    color: #132238;
+    font-size: 38px;
+    line-height: 50px;
+    font-weight: 600;
+    font-family: "Work Sans", sans-serif;
+    margin-bottom: 16px;
+}
+
+.block__contact-text {
+    color: #87909d;
+    font-family: "WorkSans-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.text-right-margin {
+    margin-bottom: 50px;
+}
+
+.text-left-margin {
+    margin-bottom: 35px;
+}
+
+.block__adress {
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+}
+
+.block__adress:hover {
+    border-radius: 10px;
+    box-shadow: 0px 12px 64px 0px rgba(28, 25, 25, 0.12);
+}
+
+.block__adress-icon {
+    background: rgba(237, 216, 255, 0.5);
+    border-radius: 4px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+}
+
+.block__adress-icon:hover {
+    background: #a53dff;
+}
+
+.block__adress-icon::before {
+    content: "";
+    width: 16px;
+    height: 20px;
+    background: url(../img/adress.svg) 0 0 / 100% no-repeat;
+}
+
+.block__adress-icon:hover::before {
+    content: "";
+    width: 16px;
+    height: 20px;
+    background: url(../img/adress-hover.svg) 0 0 / 100% no-repeat;
+}
+
+.block__adress-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+}
+
+.block__adress__heading {
+    color: #424e60;
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.block__adress__info {
+    color: #132238;
+    font-family: "Work Sans", sans-serif;
+    line-height: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.block__social-media {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+}
+
+.block__social-media-card {
+    background: #a53dff;
+    border-radius: 4px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    box-shadow: 0px 12px 64px 0px rgba(28, 25, 25, 0.12);
+}
+
+.social {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    overflow: visible;
+}
+
+.block__social-media-card2 {
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.adress-margin {
+    margin-bottom: 35px;
+}
+
+form.user-information label {
+    font-size: 18px;
+    line-height: 24px;
+    color: #697484;
+    margin-bottom: 14px;
+    display: block;
+    font-family: "WorkSans-SemiBold", sans-serif;
+}
+
+form.user-information input,
+form.user-information textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1.5px solid #e6e8eb;
+    font-size: 18px;
+    padding: 4px 0;
+    outline: none;
+    background-color: transparent;
+    margin-bottom: 14px;
+}
+
+form.user-information input:focus,
+form.user-information textarea:focus {
+    border-color: #a53dff;
+}
+
+/* Контейнер для одного поля */
+.form-field {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Блок budget-subject */
+.budget-subject {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+
+.budget-subject .form-field {
+    flex: 1;
+}
+
+/* Поле message */
+form.user-information textarea {
+    resize: vertical;
+}
+
+/* Кнопка */
+form.user-information .submit-button {
+    background: #a53dff;
+    border-radius: 4px;
+    padding: 12px 24px;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "WorkSans-SemiBold", sans-serif;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form.user-information .submit-button:hover {
+    background: #902de5;
+}
+
+form.user-information .submit-button img {
+    width: 24px;
+    height: 24px;
+}
