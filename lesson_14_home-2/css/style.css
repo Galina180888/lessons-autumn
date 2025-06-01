@@ -1,0 +1,195 @@
+/* скидання стилів  */
+
+@import url("reset.css");
+
+/* підключення стилів */
+
+@import url("fonts.css");
+
+/* підключення шрифтів */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+/* стилізація */
+
+/* загальні стилі */
+
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+    background-color: #0f0f0f;
+}
+
+[class*="__container"] {
+    max-width: 956px;
+    margin: 0 auto;
+    padding-inline: 10px;
+}
+
+.page {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.form__container {}
+
+.form {
+    background: #0f0f0f;
+    border-radius: 12px;
+    border: 1px solid #262626;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.items-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.container,
+.container4 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    align-self: stretch;
+    flex: 1;
+}
+
+.heading {
+    color: #ffffff;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    background: #141414;
+    border-radius: 8px;
+    border: 1px solid #262626;
+    padding: 20px;
+    width: 100%;
+    color: #ffffff;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #999999;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #a53dff;
+}
+
+.phone-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    align-self: stretch;
+}
+
+.container2 {
+    background: #141414;
+    border-radius: 8px;
+    border: 1px solid #262626;
+    padding: 0 12px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    height: 60px;
+}
+
+.image {
+    width: 40px;
+    height: 26px;
+    border-radius: 2px;
+    object-fit: cover;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.container3 {
+    flex: 1;
+}
+
+textarea.input-field3 {
+    height: 163px;
+    resize: vertical;
+}
+
+.container5 {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    align-items: center;
+    align-self: stretch;
+}
+
+.check-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #999999;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+}
+
+.check-box input[type="checkbox"] {
+    appearance: none;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #262626;
+    border-radius: 4px;
+    background: #0f0f0f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.check-box input[type="checkbox"]:checked {
+    background-color: #a53dff;
+    border-color: #a53dff;
+}
+
+.button {
+    background: #e50000;
+    border-radius: 8px;
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover {
+    background: #cc0000;
+}
+
+.text2 {
+    color: #ffffff;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+}
