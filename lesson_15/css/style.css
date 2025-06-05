@@ -1,0 +1,148 @@
+/* скидання стилів  */
+
+@import url("reset.css");
+
+/* підключення стилів */
+
+@import url("fonts.css");
+
+/* підключення шрифтів */
+
+/* стилізація */
+
+/* загальні стилі */
+
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+    background-color: #B0A6A5;
+}
+
+[class*="__container"] {
+    max-width: 1470px;
+    margin: 0 auto;
+    padding-inline: 15px;
+    padding-block: 25px;
+}
+
+.page {
+    padding: 230px 30px 0px 30px;
+}
+
+.header {
+    background-color: #FFBB02;
+    padding-block: 50px;
+    position: fixed;
+    top: 0;
+    inset-inline: 0;
+    z-index: 100;
+}
+
+.items-menu__item {
+    display: inline-block;
+    margin-left: 50px;
+    font-family: "Helvetica Neue";
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #27AFC9;
+}
+
+.menu-general__list,
+.items-menu li:nth-child(1) {
+    color: #6D5C55;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+    font-family: "Helvetica Neue";
+    font-weight: 700;
+}
+
+h1.block-header__title {
+    font-size: 62px;
+    color: #6D5C55;
+}
+
+h2.block-header__subtitle {
+    font-size: 52px;
+    color: #6D5C55;
+    font-size: 42px;
+}
+
+h3.block__subtitle {
+    font-size: 32px;
+    color: #FFBB02;
+    margin-bottom: 25px;
+}
+
+.footer {
+    background-color: #6D5C55;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.footer p {
+    font-family: "Helvetica Neue";
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #FFBB02;
+}
+
+/* практика */
+
+.practice__container {
+    padding: 100px;
+    border-radius: 5px;
+    background-color: #27AFC9;
+    border-radius: 76% 24% 79% 21% / 22% 76% 24% 78%;
+}
+
+.block-margin {
+    margin-bottom: 100px;
+}
+
+p {
+    font-size: 16px;
+    color: #FFBB02;
+}
+
+@media (max-width:768px) {
+    .text {
+        color: #E58E00;
+    }
+}
+
+@media (min-width:768px) {
+    .text-1 {
+        color: #6D5C55;
+    }
+}
+
+@media (min-width:768px) {
+    .text-2 {
+        display: flex;
+    }
+}
+
+.page__container {
+    display: flex;
+    gap: 20px;
+}
+
+.item__page {
+    background-color: #27AFC9;
+    border-radius: 10px;
+    flex: 1 1 320px;
+    padding: 20px;
+}
+
+.item-page__img {
+    max-width: 100%;
+    object-fit: cover;
+    aspect-ratio: 320 / 404;
+}
